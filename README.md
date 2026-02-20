@@ -1,0 +1,1 @@
+Developed a deep learning–based system for facial emotion recognition and continuous monitoring. Implemented a CNN model in PyTorch, designed evaluation and confidence mechanisms to enhance prediction reliability, and integrated the model into a full application pipeline with data visualization and reporting features.
