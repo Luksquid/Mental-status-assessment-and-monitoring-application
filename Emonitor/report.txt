@@ -1,0 +1,15 @@
+The examination report
+
+First examination: 2025-04-14
+Last examination: 2025-04-14
+Length of the research period: 0 days
+
+General statistics:
+
+angry    disgust    fear    happy    neutral    sad      surprisee
+0.0%     0.0%       0.0%    7.5%     85.0%      7.5%     0.0%
+
+Statistics for days in percents:
+
+    date          angry    disgust    fear    happy    neutral    sad      surprisee
+0   2025-04-14    0.0      0.0        0.0     7.5      85.0       7.5      0.0

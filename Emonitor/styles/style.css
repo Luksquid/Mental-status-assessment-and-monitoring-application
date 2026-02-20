@@ -1,0 +1,155 @@
+body{
+    background-color: #fcf4f1;
+    font-family: 'Trebuchet MS';
+    user-select: none;
+}
+
+#mainContainer{
+    width: 1260px;
+    height: 675px;
+    margin: -10px;
+    background-color: #fcf4f1;
+}
+
+#sideBar{
+    width: 300px;
+    height: 685px;
+    float: left;
+    background-color: #919bdb;
+}
+
+#mainSide{
+    width: 900px;
+    height: 620px;
+    background-color: #fcf4f1;
+    float: left;
+    padding: 30px;
+}
+
+#statisticsSide{
+    width: 900px;
+    height: 620px;
+    background-color: #fcf4f1;
+    padding: 30px;
+    display: none;
+}
+
+#appLogo{
+    width: 300px;
+    height: 75px;
+    background-color: #fcf4f1;
+    font-size: 40px;
+    color: #1b61a3;
+}
+
+#video{
+    width: 530px;
+    height: 400px;
+    margin-right: 80px;
+    background-color: #919bdb;
+    float: right;
+    display: none;
+}
+
+#videoBar{
+    width: 700px;
+    height: 400px;
+    background-color: #919bdb;
+}
+
+#statistics{
+    width: 870px;
+    height: 130px;
+    margin-top: 40px;
+    padding: 30px 0 30px 30px;
+    padding-top: 20px;
+    background-color: #eb6abb;
+}
+
+#statisticsSide{
+    width: 900px;
+    height: 620px;
+    background-color: #fcf4f1;
+    float: left;
+    padding: 30px;
+}
+
+#statisticsMainSide{
+    padding: 30px 0 0 30px;
+    background-color: #919bdb;
+    width: 850px;
+    height: 620px;
+    justify-content: center; 
+    overflow-y: scroll;
+}
+
+
+#startStop{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    margin: 18px 0 0 18px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+#mainStats{
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: 120px;
+}
+
+.sideButton{
+    width: 250px;
+    height: 60px;
+    margin: 25px 25px 0px 25px;
+    background-color: #4b5dd1;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.sideButton:hover{
+    transform: scale(1.07);
+    background-color: #2c50bd;
+}
+
+.sideButtonClicked{
+    width: 250px;
+    height: 60px;
+    margin: 25px 25px 0px 25px;
+    background-color: #eb6abb;
+    border: 0px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.sideButtonClicked:hover{
+    transform: scale(1.07);
+    background-color: #da59aa;
+}
+
+.statTime{
+    width: 100px;
+    height: 20px;
+    background-color: #d85cac;
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    margin-top: 10px;
+    padding: 5px 0 5px 0;
+}
+
+.statMess{
+    width: 500px;
+    height: 20px;
+    background-color: #d85cac;
+    text-align: left;
+    float: left;
+    margin-top: 10px;
+    padding: 5px 0 5px 20px;
+}
+
+.statRow{
+    clear: both;
+}

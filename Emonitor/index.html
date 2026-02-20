@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mster of science app</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div id = 'mainContainer'>
+
+        <button id = 'sendPython' style = 'display: none;'></button>
+        <button id = 'makePlots' style = 'display: none;'></button>
+
+        <div id = 'sideBar'>
+            
+            <div id = "appLogo">
+                <p style="float: left; margin: 15px 0 0 35px;">Emonitor</p>
+                <img src="./images/logo.png" width="75" height="75" style="float: right;">
+            </div>
+
+            <button id = 'home' class = 'sideButton' onclick="goToHome()">
+                Home
+            </button>
+
+            <button id = 'showStatistics' class = 'sideButton' onclick="goToStatistics()">
+                Statistics
+            </button>
+
+            <button id = 'generateReport' class = 'sideButton'>
+                Generate report
+            </button>
+
+        </div>
+
+        <div id = 'mainSide'>
+
+            <div id = 'videoBar'>
+
+                <button id = 'startStop'>
+                    Start
+                </button>
+
+                <video id = 'video' autoplay>
+
+                </video>
+
+            </div>
+                
+            <div id = "statistics">
+                Statistics
+                <div id="mainStats"></div>
+            </div>
+
+        </div>
+
+        <div id = "statisticsSide">
+            
+            <div id = 'statisticsMainSide'></div>
+
+        </div>
+
+    </div>
+
+    <script>
+        const fs = require('fs');
+        const path = require('path');
+
+        document.getElementById('generateReport').addEventListener('click', () => {
+            ipcRenderer.send('report');
+        });
+    </script>
+
+    <script src="./JavaScript/camera.js"></script>
+    <script src="./JavaScript/cameraInterface.js"></script>
+    <script src="./JavaScript/renderer.js"></script>
+    <script src="./JavaScript/plots.js"></script>
+
+
+</body>
+</html>
